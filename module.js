@@ -35,6 +35,8 @@ btn.onclick = function () {
     //setTimeout(function() {alert("Congratulation, you won " + amount + " cash voucher!");}, 10000);
    setTimeout(function() {btn.innerHTML = "🥳"},9800);
 setTimeout(function() {party();}, 9800);
+setTimeout(function() {party();}, 9900);
+setTimeout(function() {party();}, 10000);
     setTimeout(function() {action = 2;}, 9800);
     } else {
         location.reload();

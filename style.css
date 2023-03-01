@@ -5,11 +5,12 @@
 body{
 	margin:0;
 	padding:0;
-	background-color: #34495e;
+	/*background-color: #34495e;*/
+	background-color: rgb(107, 150, 43);
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	height:100vh;
+	height:130vh;
 	overflow:hidden;
 }
 .roda-title{
@@ -27,7 +28,36 @@ body{
 	overflow: hidden;
 	transition: 10s;
 }
+#ketu{
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 80%;
+}
+#ketutu{
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 8%;
+}
+#rodaimp{
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	height: 280px;
+}
+#mosq{
+	background-image: url(img/mosque.png);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 24%;
+	background-position: bottom;
+	background-size: 50%;
+	border: none;
+	background-repeat: repeat-x;
 
+}
 .container div{
 	height:50%;
 	width:200px;
@@ -44,6 +74,7 @@ body{
 	font-family:sans-serif;
 	color:#fff;
 	left:135px;
+	padding-bottom: 80px;
 }
 
 .container .one{
@@ -87,10 +118,11 @@ body{
 	color:#fff;
     margin-top: 50px;*/
 	position: absolute;
-    top: 16%;
+    top: 33%;
     left: 50%;
     z-index: 999;
     transform: translate(-50%,-50%);
+	color: #fff;
 }
 
 .arrow::before{
@@ -100,7 +132,7 @@ body{
 
 #spin{
 	position: absolute;
-	top:50%;
+	top:65%;
 	left:50%;
 	transform:translate(-50%,-50%);
 	z-index:10;
