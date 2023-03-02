@@ -6,12 +6,16 @@ body{
 	margin:0;
 	padding:0;
 	/*background-color: #34495e;*/
-	background-color: rgb(107, 150, 43);
+	/*background-color: rgb(107, 150, 43);*/
+	background-image: url(img/withtext.jpeg);
+	background-size: cover;
+	background-position: center;
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	height:130vh;
+	height:100vh;
 	overflow:hidden;
+	padding-top: 300px;
 }
 .roda-title{
     position: absolute;
@@ -28,17 +32,34 @@ body{
 	overflow: hidden;
 	transition: 10s;
 }
-#ketu{
+/*#ketu{
 	position: absolute;
 	z-index: 99;
 	top: 0;
 	left: 80%;
+}*/
+#ketu{
+	position: absolute;
+	z-index: 98;
+	top: 0;
+	left: 75%;
+	height: 330px;
 }
 #ketutu{
 	position: absolute;
 	z-index: 99;
 	top: 0;
-	left: 8%;
+    left: 5%;
+    height: 350px;
+    /*padding-top: 163px;*/
+}
+
+#lantern{
+	position: absolute;
+	z-index: 98;
+	top: 0;
+	left: 5%;
+	height: 330px;
 }
 #rodaimp{
 	position: absolute;
@@ -57,6 +78,20 @@ body{
 	border: none;
 	background-repeat: repeat-x;
 
+}
+#grid{
+	position: absolute;
+	height: 650px;
+	top: 0;
+	left: 4%;
+	padding-top: 250px;
+}
+#win{
+	position: absolute;
+	top: 0;
+	left: 74%;
+	height: 620px;
+	padding-top: 280px;
 }
 .container div{
 	height:50%;
@@ -132,9 +167,9 @@ body{
 
 #spin{
 	position: absolute;
-	top:65%;
+	/*top:70%;
 	left:50%;
-	transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);*/
 	z-index:10;
 	background-color: #e2e2e2;
 	text-transform: uppercase;
