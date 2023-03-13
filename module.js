@@ -3,7 +3,7 @@ import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 $(document).ready(function() {
 let container = document.querySelector(".container");
 let btn = document.getElementById("spin");
-let chance = [2565]
+let chance = [2835]
 let number = chance[Math.floor(Math.random() * chance.length)];
 let amount = 0;
 var action = 1;
